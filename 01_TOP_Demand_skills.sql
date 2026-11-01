@@ -4,7 +4,7 @@ limit 10;
 -- top 10 most demand skills
 
 
-select 
+select
 sd.skills,
 count(jpf.*) as demand_count
 from job_postings_fact as jpf
@@ -23,7 +23,7 @@ KEY tateAways
 --  Aws is the most prefered CP in the czech republic
 --big data tools like spark 
 -- Data pipeline like airflow and  snowflake are the most valued in the czech republic
--- Java, word and Scala round out the other top 10 requested skills
+-- Java, word and fScala round out the other top 10 requested skills
 ├────────────┼──────────────┤
 │ sql        │        29221 │
 │ python     │        28776 │
@@ -37,4 +37,5 @@ KEY tateAways
 │ gcp        │         6446 │
 └────────────┴──────────────┘
  */
+
 

@@ -1,0 +1,3 @@
+--- what are the most optical skills for data engineers-balancing both demand and salary ?
+--- i create a ranking column that combines demand count and median salary to identify the most valuable skills
+---11 focus only on remote data engineer positions with specified annual salaries
